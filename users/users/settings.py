@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # 'django_framework',
     # 'django_rest_passwordreset',
+    'users'
 ]
 
 MIDDLEWARE = [
@@ -44,7 +45,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'online_shop.urls'
+ROOT_URLCONF = 'users.urls'
 
 TEMPLATES = [
     {
@@ -62,7 +63,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'online_shop.wsgi.application'
+WSGI_APPLICATION = 'users.wsgi.application'
 
 
 # Database
@@ -137,8 +138,8 @@ EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
 EMAIL_HOST =  "smtp.gmail.com"
 EMAIL_PORT =  587  # oder 465 oder 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = "ktspezi@gmail.com"
-EMAIL_HOST_PASSWORD = "Hmvgdwhwrgw38g"
+EMAIL_HOST_USER = "xxxxx@gmail.com"
+EMAIL_HOST_PASSWORD = "xxxxxx"
 DEFAULT_FROM_EMAIL = mail
 EMAIL_SUBJECT_PREFIX = "Password Recovery"
 EMAIL_TIMEOUT = 100
